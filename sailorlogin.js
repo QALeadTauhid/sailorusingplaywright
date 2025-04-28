@@ -11,8 +11,8 @@ const { chromium } = require('playwright');
 
     // Wait for email input to be visible (valid credentials)
     await page.waitForSelector('//input[@class="form-control" and @type="email"]', { visible: true, timeout: 60000 });
-    await page.fill('//input[@class="form-control" and @type="email"]', 'testaccoffice3@gmail.com');
-    await page.fill('//input[@placeholder="Password"]', 'DkvhZ4u@p#dZgac');
+    await page.fill('//input[@class="form-control" and @type="email"]', 'testac-------@gmail.com');
+    await page.fill('//input[@placeholder="Password"]', 'Dkvghjghjgjc');
     await page.click('//button[normalize-space()="Login Now"]');
 
     // Wait for logout button to appear after login (successful login)
